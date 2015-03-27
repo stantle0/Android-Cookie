@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+	android:id="@+id/linha_incrementador">
+    
+    <!-- Coluna 1 -->
+    <ImageView 
+        android:src="@drawable/ic_launcher"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        />
+    
+    <!-- Coluna 2 -->
+    <TextView
+        android:text="Nome"
+        android:id="@+id/nomeIncrementador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        />
+    
+    <!-- Coluna 3 -->
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:gravity="right"
+		>
+	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+	        
+	        <TextView 
+		    android:text="@string/cookiesPorSegIncrementador"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"/>    
+		    
+			<TextView 
+			    android:id="@+id/cookiesPorSegIncrementador"
+			    android:text=" valor"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"/>
+	    </LinearLayout>
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+	        <TextView
+	            android:text="@string/precoIncrementador" 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            />
+	        <TextView
+	            android:id="@+id/precoIncrementador"
+	            android:text=" valor"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            />
+	    </LinearLayout>
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+	        <TextView
+	            android:text="@string/levelIncrementador" 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            />
+	        <TextView 
+	            android:id="@+id/levelIncrementador"
+	            android:text=" valor"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"/>
+	    </LinearLayout>
+    </LinearLayout>
+    
+</LinearLayout>

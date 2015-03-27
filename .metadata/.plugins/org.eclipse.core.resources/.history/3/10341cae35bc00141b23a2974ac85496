@@ -1,0 +1,19 @@
+package br.com.caelum.cadastrocaelum;
+
+import android.support.v7.app.ActionBarActivity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+
+
+public class ListaAlunos extends ActionBarActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.listagem_alunos);
+        
+        findViewById(R.id.)
+    }
+
+}

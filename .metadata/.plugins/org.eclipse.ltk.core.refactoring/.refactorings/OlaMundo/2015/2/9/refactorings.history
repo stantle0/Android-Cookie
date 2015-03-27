@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Extracts string &apos;OK!&apos; into R.string.ok" description="Extracts string &apos;OK!&apos; into R.string.ok" file="/OlaMundo/res/layout/principal.xml" flags="6" id="com.android.ide.eclipse.adt.refactoring.extract.string" mode="EDIT_SOURCE" proj="/OlaMundo" rplc-all-java="false" rplc-all-xml="false" sel-end="653" sel-start="636" stamp="1424716068119" tok-esc="OK!" xml-attr-name="android:text"/>&#x0A;&#x0A;&#x0A;</session>

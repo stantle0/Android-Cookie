@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.cookie.MainActivity" >
+
+    <Button 
+        android:id="@+id/bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start"
+        android:onClick="processamento"
+        android:layout_gravity="center"/>
+    
+    
+    
+    <TextView
+        android:id="@+id/tex" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="25pt"
+        android:textStyle="bold"
+        android:textColor="#00FF00"
+        />
+    
+
+</LinearLayout>

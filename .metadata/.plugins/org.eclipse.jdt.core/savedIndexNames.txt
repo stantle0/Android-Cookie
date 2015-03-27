@@ -1,0 +1,5 @@
+INDEX VERSION 1.126+C:\Users\Gabriel\Workspaces\Android - Cookie\.metadata\.plugins\org.eclipse.jdt.core
+1068148032.index
+2429781873.index
+1167540814.index
+1284074322.index

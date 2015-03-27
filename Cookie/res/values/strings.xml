@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cookie</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="cookiesTotaisMain">Cookies:</string>
+    <string name="cookiesPorSegundoMain">Cookies por segundo:</string>
+    
+	<string name="cookiesPorSegIncrementador">Cookies/seg:&#160;</string>
+	<string name="precoIncrementador">Preço:&#160;</string>
+	<string name="levelIncrementador">Level:&#160;</string>
+</resources>

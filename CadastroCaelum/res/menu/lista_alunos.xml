@@ -1,0 +1,54 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.caelum.cadastrocaelum.ListaAlunos" >
+
+    <item
+        android:id="@+id/novo"
+        android:icon="@drawable/ic_action_user_add"
+        android:title="Novo"
+        app:showAsAction="always"
+        />
+    
+    <item
+        android:id="@+id/mapa"
+        android:icon="@drawable/ic_action_locate"
+        android:title="Mapa"
+        app:showAsAction="always"
+        />
+    
+    <item 
+        android:id="@+id/deletar"
+        android:title="Deletar"
+        android:icon="@drawable/ic_action_delete"
+        app:showAsAction="always"
+        />
+    
+    <item
+        android:icon="@drawable/ic_action_overflow"
+        android:title="Opçoes"
+        app:showAsAction="always">
+        <menu>
+            
+            <item
+                android:id="@+id/enviar_alunos"
+                android:icon="@drawable/ic_action_refresh"
+                android:title="Sincronizar"
+                app:showAsAction="always"/>
+            
+            <item
+                android:id="@+id/receber_provas"
+                android:icon="@drawable/ic_action_attach"
+                android:title="Baixar Provas"
+                app:showAsAction="always"/>
+            
+            <item
+                android:id="@+id/preferencias"
+                android:icon="@drawable/ic_action_edit"
+                android:title="Preferencias"
+                app:showAsAction="always"/>
+            
+        </menu>
+    </item>
+
+</menu>

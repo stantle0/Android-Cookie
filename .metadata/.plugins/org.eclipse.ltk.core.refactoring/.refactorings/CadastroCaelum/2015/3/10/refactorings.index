@@ -1,0 +1,7 @@
+1425298577781	Extract local variable 'itemAtPosition'
+1425298654501	Convert local variable 'alunoSelecionado' to field
+1425299115121	Extract method 'extracted'
+1425319969563	Rename local variable 'alunoSelecionado'
+1425487694206	Convert local variable 'foto' to field
+1425498837852	Rename local variable 'caminhoArquivo'
+1425498842202	Convert local variable 'caminhoArquivoFoto' to field

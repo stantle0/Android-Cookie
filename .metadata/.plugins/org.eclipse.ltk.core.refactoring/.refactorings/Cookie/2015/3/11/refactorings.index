@@ -1,0 +1,4 @@
+1426084541445	Convert local variable 'valorCaixa' to field
+1426086076126	Convert local variable 'incrementador' to field
+1426258550878	Rename type 'Incrementador'
+1426265059645	Rename resource 'lista_incrementadores.xml'
